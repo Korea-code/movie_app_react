@@ -1,6 +1,29 @@
 .container{
+    background-color: #ffeaa7;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .movies{
     display: grid;
-    grid-template-columns : 1fr;
+    grid-template-columns : 25% 25% 25% 25%;
+    padding: 25px;
+    justify-content: center;
+}
+
+.loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (width < 600px) {
+    .movies{
+        grid-template-columns : 1fr;
+    }
+}
+@media only screen and (width > 1200px) {
+    .movies{
+        grid-template-columns : repeat(2, 1fr);
+    }
 }
