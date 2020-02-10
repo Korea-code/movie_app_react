@@ -1,3 +1,3 @@
 # Movie App 2019
 
-React JS Fundamentals learning and practice.
+Learning and practice React JS fundamentals by create movie app.
